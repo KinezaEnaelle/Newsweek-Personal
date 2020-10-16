@@ -24,3 +24,12 @@ nav{
     width: 291px;
     height: 321px;
 }
+.nav-red-mid svg {
+    width: 240px;
+    height: 40px;
+    fill: #f72210;
+  }
+  .footer{
+      width: 1250px;
+      margin: 0 auto;
+  }
