@@ -482,6 +482,7 @@
     font-weight: 700;
     font-size: 20px;
   }
+  
   .bottom-text-ed1 {
     position: absolute;
     font-size: 17px;
@@ -783,19 +784,35 @@
   
   }
   
-  
   /*  Small devices (landscape phones, less than 768px) */
   @media (max-width: 767.98px) {
-    
+    .editorcontainer img{
+        width: 100%;
+        height: 600px !important; 
+    }
   }
   
   /* // Medium devices (tablets, less than 992px) */
   @media (max-width: 991.98px) {
-    ...
-  }
-  
+    .featured-stories{
+        min-width: 40vw;
+    }
+    .top-story{
+        min-width: 40vw;
+    }
+    .debate{
+        min-width: 100vw;
+    }
+    .flexcontainer{
+        flex-wrap: wrap;
+    }
+    .editorcontainer img{
+        width: 100%;
+        height: 300px;
+    }
+  }  
    /* Large devices (desktops, less than 1200px) */
     @media (max-width: 1199.98px) {
-      ...
+    
     }
   
