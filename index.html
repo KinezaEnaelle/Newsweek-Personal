@@ -135,9 +135,10 @@
     </header>
     <!--MAIN SECTION-->
     <section class="main px-2">
-      <div class="flexcontainer d-flex position-relative">
+      <div class="grid position-relative">
         <!--FEATURED STORIES SECTION-->
-        <article class="featured-stories position-relative">
+        <div class="row">
+        <div class="featured-stories col-lg-4 col-md-6 col-sm-12 position-relative">
           <a href="#" class="featured-header d-block">FEATURED STORIES</a>
           <figure class="position-relative">
             <h2 class="bottom-text bg-light">
@@ -360,13 +361,13 @@
               </p>
             </figcaption>
           </figure>
-        </article>
+        </div>
         <!--TOP STORY SECTION-->
-        <div class="top-story">
+        <div class="top-story col-lg-4 col-md-6 col-sm-12">
           <article class="story">
             <a href="#" class="d-block top-story-header">TOP STORY</a>
             <figure>
-              <img src="assets/images/biden-latino.jpg" class="biden-img-1" alt="biden latino" />
+              <img src="assets/images/biden-latino.jpg" class="biden-img-1" alt="biden latino" class="top-img"/>
               <figcaption>
                 <a href="#" class="text-dark top-story-para"
                   >Biden Campaign Targets Latino Men, Eyeing Obama-Level
@@ -388,7 +389,7 @@
             <figure class="col-4">
               <img
                 src="assets/images/love-romance-italy-romeo-juliet-pandemic.jpg" class="romeo"
-                alt="love"
+                alt="love" class="topstory-image"
               />
               <figcaption>
                 <p class="text-dark d-block">
@@ -400,7 +401,7 @@
             <figure class="col-4">
               <img
                 src="assets/images/world-war-ii-black-women-african-americans.jpg"
-                alt="woman"
+                alt="woman" class="topstory-image"
               />
               <figcaption>
                 <p>'I'm 99, And the Oldest Park Ranger in America'</p>
@@ -409,7 +410,7 @@
             <figure class="col-4">
               <img
                 src="assets/images/divorce-love-marriage-relationships-australia.jpg"
-                alt="divorce"
+                alt="divorce" class="topstory-image"
               />
               <figcaption>
                 <p>
@@ -646,11 +647,11 @@
           </article>
         </div>
         <!--THE DEBATE SECTION-->
-        <div class="debate">
+        <div class="debate col-lg-4 col-md-6 col-sm-12">
           <article class="the-debate">
             <a href="#" class="d-block top-story-header">THE DEBATE</a>
             <hr>
-            <figure class="d-flex align-items-center d-md-flex">
+            <figure class="align-items-center d-md-flex">
               <img
                 src="assets/images/claire-finkelstein-richard-w-painter-2.png" class="mr-2"
                 alt="claire"
@@ -686,7 +687,7 @@
           <div class="opinion">
             <a href="#" class="d-block top-story-header">OPINION</a>
             <hr>
-            <figure  class="d-flex align-items-center d-md-flex">
+            <figure  class="align-items-center d-md-flex hidden-md-down">
               <img src="assets/images/robert-reich.png" class="mr-2" alt="robert-reich" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1">
@@ -696,7 +697,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="d-flex align-items-center d-md-flex">
+            <figure class="align-items-center d-md-flex">
               <img
                 src="assets/images/john-yoo-james-phillips.png" class="mr-2"
                 alt="kim"
@@ -710,7 +711,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="d-flex align-items-center d-md-flex">
+            <figure class="align-items-center d-md-flex">
               <img src="assets/images/mark-davis.png" class="mr-2" alt="mark-davis" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1"
@@ -720,7 +721,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="d-flex align-items-center d-md-flex" >
+            <figure class="align-items-center d-md-flex" >
               <img
                 src="assets/images/abraham-cooper-yitzchok-adlerstein.png" class="mr-2"
                 alt="abraham-cooper-yitzchok-adlerstein"
@@ -734,7 +735,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="d-flex align-items-center d-md-flex" >
+            <figure class="align-items-center d-md-flex" >
               <img
                 src="assets/images/kelly-shackelford.png" class="mr-2"
                 alt="kelly-shackelford"
@@ -747,7 +748,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="d-flex align-items-center d-md-flex">
+            <figure class="align-items-center d-md-flex">
               <img src="assets/images/john-yoo-james-phillips.png"  class="mr-2" alt="john" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1"
@@ -758,7 +759,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="d-flex align-items-center d-md-flex">
+            <figure class="align-items-center d-md-flex">
               <img src="assets/images/hank-gilman.png" class="mr-2" alt="hank-gilman" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1"
@@ -768,7 +769,7 @@
                 <hr>
               </figcaption>
             </figure>
-            <figure class="d-flex align-items-center d-md-flex">
+            <figure class="align-items-center d-md-flex">
               <img src="assets/images/roff-new.png" class="mr-2" alt="peter" />
               <figcaption>
                 <a href="#" class="text-dark top-story-para-1">What to Do About Columbus Day</a><br />
@@ -907,6 +908,7 @@
             </figure>
           </div>
         </div>
+      </div>
       </div>
     </section>
     <!--THE FIRST GRID SECTION-->
