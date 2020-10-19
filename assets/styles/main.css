@@ -791,10 +791,17 @@
         height: 800px !important; 
     }
 
-      }
     .editorcontainer img{
         width: 100%;
         height: 700px !important; 
+    }
+    .usimage{
+        width: 100%;
+        height: 800px !important;
+    }
+    .usimg{
+        width: 50%;
+        height: 400px;
     }
 
   }
